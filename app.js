@@ -10,7 +10,7 @@ app.use(express.json())
 
 // routes
 app.use('/api/v1', require('./routes/api/v1/recipes'))
-app.use('/', require('./routes/pages/recipes'))
+//app.use('/', require('./routes/api/v1/recipes'))
 
 // server
 const url = colors.blue('http://localhost:3010/')
